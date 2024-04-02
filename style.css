@@ -55,6 +55,8 @@ Section style start from here------
 .container {
     display: flex;
     margin-bottom: 50px;
+    margin-top: 50px;
+    width: 1047px;
 }
 
 /*---------------------
@@ -63,7 +65,7 @@ camera-details style
 
 .camera-details {
     width: 582px;
-    margin-top: 7%;
+    margin-top: 6%;
 }
 
 .camera-details h2 {
@@ -74,6 +76,7 @@ camera-details style
 
 .camera-details p {
     font-size: 16px;
+    text-align: justify;
 }
 
 .camera-details a {
@@ -118,6 +121,7 @@ Sponser style strt
     border-top: 2px solid #EFF2F6;
     border-bottom: 2px solid #EFF2F6;
     margin-top: 70px;
+    border-image-source: linear-gradient(to right, #FAFBFC);
 }
 
 .sponser-images {
@@ -126,4 +130,69 @@ Sponser style strt
     align-items: center;
     justify-items: center;
     padding-left: 35px;
+}
+
+/*---------------------
+Sponser style End
+----------------------*/
+/*---------------------
+Products style start
+----------------------*/
+.container-two {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 1047px;
+    flex-direction: column;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.product {
+    width: 329px;
+    height: 476px;
+}
+
+.product-title h2 {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 16px 0px 0px 0px;
+}
+
+.product-title h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.product-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.product-info i {
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px 4px 0px 0px;
+
+}
+
+.product-info span {
+    font-size: 14px;
+    color: #5E6366;
+}
+
+.para {
+    margin-top: 16px;
+    width: 192px;
+    font-size: 14px;
+    color: #787885;
+    font-weight: 600;
+
 }
