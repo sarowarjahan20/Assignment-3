@@ -236,3 +236,51 @@ i.fa-solid.fa-arrow-right {
 
     padding: 25px 3px 8px 8px;
 }
+
+/*-------------------------------------
+products style End
+----------------------------------*/
+/*-------------------------------------
+Feature-product style start
+----------------------------------*/
+.Feature-product {
+    display: flex;
+}
+
+.Feature-details {
+    width: 600px;
+    margin-left: 110px;
+}
+
+.Feature-details h2 {
+    font-size: 38px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.Feature-details p {
+    font-size: 16px;
+    color: #6C6C6C;
+    line-height: 26px;
+    margin-bottom: 0px;
+
+}
+
+.Join-Now {
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px 10px 24px;
+    border-radius: 10px;
+    color: white;
+    margin: 0px;
+}
+
+/*-------------------------------------
+Feature-product style End
+----------------------------------*/
+/*-------------------------------------
+Fooetr style start
+----------------------------------*/
+footer {
+    background-color: black;
+}
