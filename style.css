@@ -23,7 +23,7 @@ header style start from here
 header {
 
     margin-top: 37px;
-    width: 1070px;
+    width: 100%;
 }
 
 nav {
@@ -56,7 +56,7 @@ Section style start from here------
     display: flex;
     margin-bottom: 50px;
     margin-top: 50px;
-    width: 1047px;
+    width: 100%;
 }
 
 /*---------------------
@@ -142,7 +142,7 @@ Products style start
     display: flex;
     margin-bottom: 50px;
     margin-top: 50px;
-    width: 1047px;
+    width: 100%;
     flex-direction: column;
 }
 
