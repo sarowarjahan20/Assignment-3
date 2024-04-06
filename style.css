@@ -24,6 +24,7 @@ header {
 
     margin-top: 37px;
     width: 100%;
+    max-width: 1048px;
 }
 
 nav {
@@ -53,10 +54,15 @@ header style Ends------------------
 Section style start from here------
 ----------------------------------*/
 .container {
-    display: flex;
     margin-bottom: 50px;
     margin-top: 50px;
+
+}
+
+.column {
     width: 100%;
+    display: flex;
+    max-width: 1048px;
 }
 
 /*---------------------
@@ -155,26 +161,28 @@ Products style start
 .products {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 30px;
-    grid-column-gap: 30px;
+    grid-gap: 30px;
+
 
 }
 
 .product {
-    width: 329px;
-    height: 476px;
-    padding: 16px 0px 14px 14px;
+    /*width: 329px;
+    height: 476px;*/
+    padding: 12px 15px 14px 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 27px #bdb8b8d6;
 }
 
 .product-image {
-    width: 300px;
-    height: 256px;
+    width: 100%;
+
 }
 
 .product-image img {
     width: 100%;
+    width: 329px;
+
 }
 
 .product-title h2 {
@@ -224,12 +232,15 @@ i.fa-solid.fa-star {
 }
 
 .See-More {
+
+    /* float: right; */
+    text-align: right;
+}
+
+.See-More a {
     text-decoration: none;
     color: #E02C6D;
     font-size: 16px;
-    /* float: right; */
-    position: relative;
-    left: 290%;
 }
 
 i.fa-solid.fa-arrow-right {
